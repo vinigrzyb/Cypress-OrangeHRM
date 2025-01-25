@@ -1,0 +1,35 @@
+{
+  "name": "cypress-orangehrm",
+  "version": "1.0.0",
+  "description": "Testes automatizados com cypress na plataforma OrangeHRM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinigrzyb/Cypress-OrangeHRM.git"
+  },
+  "author": "Vinicius Grzyb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinigrzyb/Cypress-OrangeHRM/issues"
+  },
+  "homepage": "https://github.com/vinigrzyb/Cypress-OrangeHRM#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@faker-js/faker": "^9.4.0",
+    "cypress": "^14.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.6.0",
+    "globals": "^15.14.0"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1",
+    "dotenv": "^16.4.7"
+  }
+}
